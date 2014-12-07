@@ -1,64 +1,74 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Your Website</title>
-	
- <link rel="icon" href="favicon.ico">	
- 
-  <link rel="stylesheet" href="css/normalize.css">				
-  <link rel="stylesheet" href="css/gallery.css">	 
-  <link rel="stylesheet" href="css/styles.css">	
-	
+    <meta charset="UTF-8"/>
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/grid.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:500,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata:400' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/styles.css">
+
 </head>
 <body>
-	
-	<div class="container showgrid">
-		
-		<!-- Your Content -->
-		<div class="gallery items-4">
-			  <div id="item-1" class="control-operator"></div>
-			  <div id="item-2" class="control-operator"></div>
-			  <div id="item-3" class="control-operator"></div>
-			  <div id="item-4" class="control-operator"></div>
 
-			  <figure class="item">
-			    <img src="img/1.jpg" alt="">
-			  </figure>
+<div class="container">
+    <div class="grid_12">
+        <header>
+            <p>Portfolio</p>
+        </header>
+    </div>
 
-			  <figure class="item">
-			    <img src="img/2.jpg" alt="">
-			  </figure>
+    <article>
+        <div class="grid_12" id="main">
+            <ul class="top">
+                <li class="galleryItem">
+                    <a class="caption"
+                       href="#"
+                       data-title="Colored landscape"
+                       data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id sapien condimentum, sagittis erat rhoncus, bibendum nisi.">
 
-			  <figure class="item">
-			    <img src="img/3.jpg" alt="">
-			  </figure>
+                        <img src="http://media.digitalcameraworld.com/files/2012/10/Vertorama_landscape_photography_tips_PHO17.insight02and03.vertorama.jpg"
+                             alt="Landscape image">
 
-			  <figure class="item">
-			    <img src="img/4.jpg" alt="">
-			  </figure>
+                    </a>
+                </li>
 
-			  <div class="controls">
-			    <a href="#item-1" class="control-button">
-			    	<img src="img/1-thumb.jpg" alt="">
-			    </a>
-			    <a href="#item-2" class="control-button">
-			    	<img src="img/2-thumb.jpg" alt="">
-			    </a>
-			    <a href="#item-3" class="control-button">
-					<img src="img/3-thumb.jpg" alt="">
-			    </a>
-			    <a href="#item-4" class="control-button">
-					<img src="img/4-thumb.jpg" alt="">
-			    </a>
-			  </div>
-			</div>
+                <li class="galleryItem">
+                    <a class="caption"
+                       href="#"
+                       data-title="Black &amp; white photo"
+                       data-description="Vivamus ut sem id magna consequat porta vitae ut sem. Proin eget commodo risus, vitae blandit velit. ">
 
-		<!-- Clearfix -->
-		<div class="clear"></div>
+                        <img src="http://placehold.it/200x200" alt="Landscape image">
 
-	</div>
-	
-  
+                    </a>
+                </li>
+                <li class="galleryItem">
+                    <a class="caption"
+                       href="#"
+                       data-title="Black &amp; white photo"
+                       data-description="Vivamus ut sem id magna consequat porta vitae ut sem. Proin eget commodo risus, vitae blandit velit. ">
+
+                        <img src="http://placehold.it/200x200" alt="Landscape image">
+
+                    </a>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </article>
+
+    <!-- Clearfix -->
+    <div class="clear"></div>
+
+</div>
+
+
 </body>
 </html>
