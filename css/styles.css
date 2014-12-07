@@ -324,6 +324,9 @@ div.grid_12 > p.grid_6 ~ em.grid_5 {
 }
 
 /* Portfolio */
+/* Borrowed original code from
+* http://codepen.io/qwetty/pen/mfAnG
+*/
 a {
     text-decoration: none;
 }
